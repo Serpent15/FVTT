@@ -1,0 +1,20 @@
+{
+    "name": "random-book-generator",
+    "title": "Random Book Generator",
+    "description": "A module to generate random books for your campaign using predefined tables.",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "systems": ["dnd5e"],
+    "scripts": ["scripts/random-book-generator.js"],
+    "esmodules": [],
+    "styles": [],
+    "packs": [
+      {
+        "name": "tables",
+        "label": "Random Book Tables",
+        "path": "packs/tables.db",
+        "entity": "RollTable"
+      }
+    ]
+  }
+  

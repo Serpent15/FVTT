@@ -1,0 +1,197 @@
+[
+  {
+    "_id": "book-size-format",
+    "name": "Book Size and Format",
+    "description": "Table for determining book size and format",
+    "results": [
+      {"_id": "1", "type": 0, "text": "Miniature (less than 3x4”)"},
+      {"_id": "2", "type": 0, "text": "Octavo (roughly 6x9\")"},
+      {"_id": "3", "type": 0, "text": "Quarto (roughly 9x12\")"},
+      {"_id": "4", "type": 0, "text": "Scroll"},
+      {"_id": "5", "type": 0, "text": "Codex"},
+      {"_id": "6", "type": 0, "text": "Tablet"},
+      {"_id": "7", "type": 0, "text": "Magical format (variable)"},
+      {"_id": "8", "type": 0, "text": "Exotic or unique format"}
+    ],
+    "formula": "1d8"
+  },
+  {
+    "_id": "binding-material",
+    "name": "Binding Material",
+    "description": "Table for determining the binding material of a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "Leather (calfskin)"},
+      {"_id": "2", "type": 0, "text": "Cloth"},
+      {"_id": "3", "type": 0, "text": "Pigskin"},
+      {"_id": "4", "type": 0, "text": "Wood"},
+      {"_id": "5", "type": 0, "text": "Vellum or Parchment"},
+      {"_id": "6", "type": 0, "text": "Metal (iron, copper)"},
+      {"_id": "7", "type": 0, "text": "Exotic leather (dragonhide, griffon, etc.)"},
+      {"_id": "8", "type": 0, "text": "Bound in chains"},
+      {"_id": "9", "type": 0, "text": "Crystal or gemstone"},
+      {"_id": "10", "type": 0, "text": "Elemental binding (fire, ice, shadow, etc.)"}
+    ],
+    "formula": "1d10"
+  },
+  {
+    "_id": "language",
+    "name": "Language",
+    "description": "Table for determining the language of a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "Common"},
+      {"_id": "2", "type": 0, "text": "Elvish"},
+      {"_id": "3", "type": 0, "text": "Dwarvish"},
+      {"_id": "4", "type": 0, "text": "Draconic"},
+      {"_id": "5", "type": 0, "text": "Undercommon"},
+      {"_id": "6", "type": 0, "text": "Gnomish"},
+      {"_id": "7", "type": 0, "text": "Halfling"},
+      {"_id": "8", "type": 0, "text": "Orcish"},
+      {"_id": "9", "type": 0, "text": "Abyssal/Infernal"},
+      {"_id": "10", "type": 0, "text": "Sylvan"},
+      {"_id": "11", "type": 0, "text": "Celestial"},
+      {"_id": "12", "type": 0, "text": "Lost language"}
+    ],
+    "formula": "1d12"
+  },
+  {
+    "_id": "contents",
+    "name": "Contents",
+    "description": "Table for determining the contents of a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "Spellbook"},
+      {"_id": "2", "type": 0, "text": "Historical"},
+      {"_id": "3", "type": 0, "text": "Mythical/Legends"},
+      {"_id": "4", "type": 0, "text": "Religious/Philosophical"},
+      {"_id": "5", "type": 0, "text": "Magical Theory"},
+      {"_id": "6", "type": 0, "text": "Bestiary"},
+      {"_id": "7", "type": 0, "text": "Alchemical Recipes"},
+      {"_id": "8", "type": 0, "text": "Diary/Journal"},
+      {"_id": "9", "type": 0, "text": "Maps and Atlases"},
+      {"_id": "10", "type": 0, "text": "Fictional (Novels, Poetry, Drama)"},
+      {"_id": "11", "type": 0, "text": "Instruction Manuals"},
+      {"_id": "12", "type": 0, "text": "Legal Documents"},
+      {"_id": "13", "type": 0, "text": "Unknown/Mysterious"},
+      {"_id": "14", "type": 0, "text": "Coded/Secret Messages"}
+    ],
+    "formula": "1d14"
+  },
+  {
+    "_id": "illustrations",
+    "name": "Illustrations",
+    "description": "Table for determining the illustrations in a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "None"},
+      {"_id": "2", "type": 0, "text": "Black and White"},
+      {"_id": "3", "type": 0, "text": "Color"},
+      {"_id": "4", "type": 0, "text": "Magical Images"},
+      {"_id": "5", "type": 0, "text": "Diagrams and Charts"},
+      {"_id": "6", "type": 0, "text": "Maps"},
+      {"_id": "7", "type": 0, "text": "Alchemical Recipes"}
+    ],
+    "formula": "1d7"
+  },
+  {
+    "_id": "magical-properties",
+    "name": "Magical Properties",
+    "description": "Table for determining the magical properties of a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "None"},
+      {"_id": "2", "type": 0, "text": "Indestructible"},
+      {"_id": "3", "type": 0, "text": "Hidden Messages"},
+      {"_id": "4", "type": 0, "text": "Cursed"},
+      {"_id": "5", "type": 0, "text": "Contains Spells"},
+      {"_id": "6", "type": 0, "text": "Sentient"},
+      {"_id": "7", "type": 0, "text": "Teleportation"},
+      {"_id": "8", "type": 0, "text": "Protective Magic"},
+      {"_id": "9", "type": 0, "text": "Summoning"},
+      {"_id": "10", "type": 0, "text": "Reality Alteration"},
+      {"_id": "11", "type": 0, "text": "Transformation"}
+    ],
+    "formula": "1d11"
+  },
+  {
+    "_id": "authorship",
+    "name": "Authorship",
+    "description": "Table for determining the author of a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "Monk or Religious Scholar"},
+      {"_id": "2", "type": 0, "text": "Academic or Sage"},
+      {"_id": "3", "type": 0, "text": "Adventurer or Explorer"},
+      {"_id": "4", "type": 0, "text": "Famous Historical Figure"},
+      {"_id": "5", "type": 0, "text": "Royal or Noble Author"},
+      {"_id": "6", "type": 0, "text": "Legendary Creature"},
+      {"_id": "7", "type": 0, "text": "Cult or Secret Society"},
+      {"_id": "8", "type": 0, "text": "Fictional or Mythical Author"},
+      {"_id": "9", "type": 0, "text": "Deity or Demigod"},
+      {"_id": "10", "type": 0, "text": "Magical Entity or Construct"},
+      {"_id": "11", "type": 0, "text": "Interdimensional or Cosmic Being"},
+      {"_id": "12", "type": 0, "text": "Unknown or Anonymized"}
+    ],
+    "formula": "1d12"
+  },
+  {
+    "_id": "previous-ownership",
+    "name": "Previous Ownership",
+    "description": "Table for determining the previous ownership of a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "Brand New, Never Owned"},
+      {"_id": "2", "type": 0, "text": "Unknown"},
+      {"_id": "3", "type": 0, "text": "Commoner or Local"},
+      {"_id": "4", "type": 0, "text": "Adventurer or Explorer"},
+      {"_id": "5", "type": 0, "text": "Scholar or Mage"},
+      {"_id": "6", "type": 0, "text": "Noble or Royal"},
+      {"_id": "7", "type": 0, "text": "Religious Figure"},
+      {"_id": "8", "type": 0, "text": "Cult or Secret Society"},
+      {"_id": "9", "type": 0, "text": "Legendary Hero or Villain"},
+      {"_id": "10", "type": 0, "text": "Otherworldly Being"},
+      {"_id": "11", "type": 0, "text": "Ancient Civilization"},
+      {"_id": "12", "type": 0, "text": "Deity or Demigod"}
+    ],
+    "formula": "1d12"
+  },
+  {
+    "_id": "readability",
+    "name": "Readability",
+    "description": "Table for determining the readability of a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "Easy to read"},
+      {"_id": "2", "type": 0, "text": "Straightforward with some unfamiliar terms"},
+      {"_id": "3", "type": 0, "text": "Requires concentration and rereading"},
+      {"_id": "4", "type": 0, "text": "Dense and filled with jargon"},
+      {"_id": "5", "type": 0, "text": "Written in a heavy accent or dialect"},
+      {"_id": "6", "type": 0, "text": "Utilizes an outdated or archaic language"},
+      {"_id": "7", "type": 0, "text": "Text is fragmented; hard to follow"},
+      {"_id": "8", "type": 0, "text": "Encrypted or coded; requires deciphering"},
+      {"_id": "9", "type": 0, "text": "Full of esoteric references and symbols"},
+      {"_id": "10", "type": 0, "text": "Barely legible; poor condition"},
+      {"_id": "11", "type": 0, "text": "Practically unreadable; reasons unknown"}
+    ],
+    "formula": "1d11"
+  },
+  {
+    "_id": "special-features",
+    "name": "Special Features",
+    "description": "Table for determining the special features of a book",
+    "results": [
+      {"_id": "1", "type": 0, "text": "No Special Features"},
+      {"_id": "2", "type": 0, "text": "Embossed Cover"},
+      {"_id": "3", "type": 0, "text": "Illustrated Initials"},
+      {"_id": "4", "type": 0, "text": "Marginalia"},
+      {"_id": "5", "type": 0, "text": "Quality Parchment"},
+      {"_id": "6", "type": 0, "text": "Unique Binding"},
+      {"_id": "7", "type": 0, "text": "Colored Plates"},
+      {"_id": "8", "type": 0, "text": "Watermarks"},
+      {"_id": "9", "type": 0, "text": "Rare Typography"},
+      {"_id": "10", "type": 0, "text": "Fore-edge Painting"},
+      {"_id": "11", "type": 0, "text": "Reinforced Corners"},
+      {"_id": "12", "type": 0, "text": "Fabric Bookmarks"},
+      {"_id": "13", "type": 0, "text": "Gilded Edges"},
+      {"_id": "14", "type": 0, "text": "Signed Copy"},
+      {"_id": "15", "type": 0, "text": "Fold-out Maps or Charts"},
+      {"_id": "16", "type": 0, "text": "Multiple Bookmarks"},
+      {"_id": "17", "type": 0, "text": "Leather Straps and Clasps"},
+      {"_id": "18", "type": 0, "text": "Textured Covers"}
+    ],
+    "formula": "1d18"
+  }
+]
